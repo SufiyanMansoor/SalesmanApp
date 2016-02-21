@@ -1,0 +1,67 @@
+/* Empty. Add your own CSS if you like */
+#round
+{
+    background-color: rgba(239, 255, 158, 0.20);
+    color: rgba(29, 34, 182, 0.71);
+    font-size: 2.0em;
+    font-family: "Helvetica Neue";
+    margin: 0 auto;
+    letter-spacing: 3px;
+}
+.lage
+{
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+
+}
+#lage
+{
+    font-size: 2.0em;
+    letter-spacing: 2px;
+    font-family: Ionicons;
+}
+.lage1
+{
+    background-color: #e3e7f0;
+
+
+}
+#shad {
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+    color: #0f125c;
+    font-size: 1.7em;
+    font-family: Roboto;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {text-shadow: 10px 20px 30px #4abf4d;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {text-shadow: 10px 20px 30px #4abf4d;}
+}
+.ist
+{
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+    color: #0f125c;
+    font-size: 2.0em;
+    font-family: Roboto;
+    text-align: center;
+    background-color: #fff;
+    letter-spacing: 5px;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {text-shadow: 10px 20px 30px #4abf4d;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {text-shadow: 10px 20px 30px #4abf4d;}
+}
